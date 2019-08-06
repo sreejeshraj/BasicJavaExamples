@@ -19,6 +19,10 @@ public class MainClassToTestStringUtils {
 		boolean spaceStringIsEmpty = StringUtils.isEmpty(spaceString);
 		System.out.println("spaceStringIsEmpty: "+spaceStringIsEmpty);
 		
+		
+		boolean spaceStringIsBlank = StringUtils.isBlank(spaceString);
+		System.out.println("spaceStringIsBlank: "+spaceStringIsBlank);
+		
 		System.out.println("Exiting Main!");
 
 	}
