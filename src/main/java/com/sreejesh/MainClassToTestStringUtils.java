@@ -1,10 +1,6 @@
 package com.sreejesh;
 
-import java.util.Objects;
-
 import org.apache.commons.lang3.StringUtils;
-
-import lombok.NonNull;
 
 public class MainClassToTestStringUtils {
 
