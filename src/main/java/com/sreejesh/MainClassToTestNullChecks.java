@@ -14,8 +14,8 @@ public class MainClassToTestNullChecks {
 		
 		String sampleString = "SampleString";
 		//String sampleString = null;
-		int lengthOfString = getLengthOfString(sampleString);
-		System.out.println("lengthOfString: "+lengthOfString);
+		//int lengthOfString = getLengthOfString(sampleString);
+		//System.out.println("lengthOfString: "+lengthOfString);
 		testNestedNullChecksInObjects();
 		//nullCheckWithinAMethod();
 		System.out.println("Exiting Main!");

@@ -13,15 +13,22 @@ public class MainClassToTestStringUtils {
 		
 		String emptyString = "";
 		boolean emptyStringIsEmpty = StringUtils.isEmpty(emptyString);
+		boolean emptyStringIsBlank = StringUtils.isBlank(emptyString);
 		System.out.println("emptyStringIsEmpty: "+emptyStringIsEmpty);
+		System.out.println("emptyStringIsBlank: "+emptyStringIsBlank);
 		
 		String spaceString = " ";
 		boolean spaceStringIsEmpty = StringUtils.isEmpty(spaceString);
 		System.out.println("spaceStringIsEmpty: "+spaceStringIsEmpty);
 		
+			
 		
 		boolean spaceStringIsBlank = StringUtils.isBlank(spaceString);
 		System.out.println("spaceStringIsBlank: "+spaceStringIsBlank);
+		
+		String textWithBlankStringIsBlank = " S ";
+		boolean IsTextWithBlankStringIsBlank = StringUtils.isBlank(textWithBlankStringIsBlank);
+		System.out.println("IsTextWithBlankStringIsBlank: "+IsTextWithBlankStringIsBlank);
 		
 		System.out.println("Exiting Main!");
 
